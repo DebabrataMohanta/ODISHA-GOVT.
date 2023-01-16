@@ -1,0 +1,42 @@
+import React from 'react'
+import vid1 from '../images/video1.mp4'
+import vid2 from '../images/video1.mp4'
+import vid3 from '../images/video1.mp4'
+
+export default function Video() {
+
+   
+
+  return (
+    <>
+    <div className="mobile-none"
+      style={{width: "100%",backgroundImage: "linear-gradient(red,#bbb,0.5)", backgroundColor: "rgb(232, 255, 228)"}}>
+      <div style={{backgroundColor: "rgba(130, 176, 113, 0.393)", margin: "20px"}}>
+        <div className="row " style={{justifyContent: "space-between"}}>
+          <div class="col-3">
+            <button
+              style={{textDecoration: "none",fontWeight: "bold", marginTop: "50px", marginLeft: "650px", fontSize:"xx-large", alignItems: "center", border: "solid 1px #fff", padding: "5px", borderRadius: "10px"}}>Video
+              Gallery</button>
+          </div>
+          <div className="col-3">
+            <a className="waves-effect waves-light btn right " style={{marginTop: "50px", }} href="#/">View more</a>
+          </div>
+
+        </div>
+        <div className="containerss">
+          <div className="videos">
+            <video className="active" src="images/video1.mp4" muted loop></video>
+        <video src={vid1} muted loop></video>
+            <video src={vid2} muted loop></video>
+            <video src={vid3} muted loop></video>
+          </div>
+          <div className="main-video">
+            <video src="images/video1.mp4" muted controls autoplay loop></video>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    </>
+  )
+}
