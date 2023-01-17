@@ -1,11 +1,9 @@
 import React from 'react';
 
 
+
 export default function Grids2() {
-    const style0={
-        justifyContent:"space-between",
-        alignItems:"center"
-    }
+    
     const style1={
         border: "1px solid green",
               borderRadius: "10px 10px 10px 10px",
@@ -13,8 +11,9 @@ export default function Grids2() {
               height: "500px",
               margin: "10px",
               backgroundColor: "#00777e",
-              color: "white"
-              
+              color: "white",
+              width:"300px",
+              marginTop:"20px"
     }
     const style2={
         border: "1px solid green",
@@ -23,8 +22,9 @@ export default function Grids2() {
               height: "500px",
               margin: "10px",
               backgroundColor: "#00777e",
-              color: "white"
-             
+              color: "white",
+              width:"300px",
+              marginTop:"20px"
     }
     const style3={
         border: "1px solid green",
@@ -33,8 +33,10 @@ export default function Grids2() {
               height: "500px",
               margin: "10px",
               color: "white",
-              backgroundColor: "rgb(0, 119, 126)"
-            
+              backgroundColor: "rgb(0, 119, 126)",
+              width:"300px",
+              marginRight:"95px",
+              marginTop:"20px"
     }
     const style4={
         color: "rgb(246, 255, 0)", fontSize:"small", fontWeight: "bold"
@@ -44,7 +46,7 @@ export default function Grids2() {
         
     
     <div className="nav-wrapper">
-      <div className="row" style={style0}>
+      <div className="row" >
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
        <div data-aos="slide-up" data-aos-duration="2000" className="col s12 m3 container-box-custom-shadow" style={style1}>
           <div className="icon-block">
@@ -122,7 +124,7 @@ export default function Grids2() {
         </div>
       </div>
     </div>
-   
+  
   </>
   )
 }

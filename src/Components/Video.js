@@ -2,6 +2,8 @@ import React from 'react'
 import vid1 from '../images/video1.mp4'
 import vid2 from '../images/video1.mp4'
 import vid3 from '../images/video1.mp4'
+import vid4 from '../images/video1.mp4'
+import vid5 from '../images/video1.mp4'
 
 export default function Video() {
 
@@ -23,16 +25,18 @@ export default function Video() {
           </div>
 
         </div>
-        <div className="containerss">
+        <div style={{marginLeft:"200px",marginRight:"200px"}}>
+        <div className="containerss" style={{display:"flex"}}>
           <div className="videos">
-            <video className="active" src="images/video1.mp4" muted loop></video>
-        <video src={vid1} muted loop></video>
+            <video className="active" src={vid1} muted loop></video>
             <video src={vid2} muted loop></video>
             <video src={vid3} muted loop></video>
+            <video src={vid4} muted loop></video>
           </div>
-          <div className="main-video">
-            <video src="images/video1.mp4" muted controls autoplay loop></video>
+          <div className="main-video" >
+            <video src={vid5} muted controls autoplay loop></video>
           </div>
+        </div>
         </div>
       </div>
     </div>
