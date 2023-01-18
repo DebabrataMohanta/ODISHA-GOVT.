@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Header.css";
+import './Header.css'
 import { Facebook } from "@mui/icons-material";
 import { Twitter } from '@mui/icons-material';
 import { LinkedIn } from '@mui/icons-material';
@@ -20,19 +20,20 @@ const handlelink=()=>{
 function Header() {
   return (
    
-    <><div className='sticky-position'>
+    <>
+    <div className='sticky-position1'>
       <span id="header">
-        <div className='container'>
-          <div className='scroll-container'>
-            <span className='mobile-responsive'>
-              <font className='govt-heading'>Goverment of Odisha</font>
-              <font className='odia'> ଓଡ଼ିଶା ସରକାର</font>
+        <div className='container1'>
+          <div className='scroll-container1'>
+            <span className='mobile-responsive1'>
+              <font className='govt-heading1'>Goverment of Odisha</font>
+              <font className='odia1'> ଓଡ଼ିଶା ସରକାର</font>
             </span>
-            <span className='mobile-none'>
+            <span className='mobile-none1'>
               <span className='container2'>
-                <a className='yellow-text' href={handlelink}>RTI | Feedback | Annual Report</a>
-                <font className="odiayai">ଓଡ଼ିଆ</font>
-                <span className='social-icons'>
+                <a className='yellow-text1' href={handlelink}>RTI | Feedback | Annual Report</a>
+                <font className="odiayai1">ଓଡ଼ିଆ</font>
+                <span className='social-icons1'>
                   <Facebook />
                   <Twitter />
                   <LinkedIn />
@@ -43,7 +44,7 @@ function Header() {
 
           </div>
 
-          <img src={odishalogo} className="odishalogo" />
+          <img src={odishalogo} className="odishalogo1" />
           <div style={{
             display: "flex",
             justifyContent: "center",
@@ -54,58 +55,58 @@ function Header() {
 
           >
             <a href={handlelink}>
-              <img src={newormaslogo1} alt="" className="mobile-none" style={{ height: "84px", marginTop: "2px" }} /> </a>
+              <img src={newormaslogo1} alt="" className="mobile-none1" style={{ height: "84px", marginTop: "2px" }} /> </a>
             <marquee behavior="" class="mobile-none" direction=""
               style={{ color: "black", fontFamily: "Brush Script MT", fontSize: "19px", marginTop: "-13px" }}> Creating
               Competence and Values in Rural Odisha
             </marquee>
           </div>
 
-          <div class="cm headercm" style={{ display: "flex" }}>
-            <div class="cmText" style={{ whiteSpace: "nowrap" }}>
-              <h6 style={{ margin: "0", paddingTop: "30%" }}><strong style={{ fontWeight: "bold" }} className="mobile-text">Shri Naveen
+          <div className="cm headercm" style={{ display: "flex" }}>
+            <div className="cmText" style={{ whiteSpace: "nowrap" }}>
+              <h6 style={{ margin: "0", paddingTop: "30%" }}><strong style={{ fontWeight: "bold" }} className="mobile-text1">Shri Naveen
                 Patnaik</strong></h6>
               <p style={{ margin: "0", padding: "0" }}>Hon'ble Chief Minister</p>
             </div>
             <img style={{ marginTop: "-25px", marginBottom: "0", width: "110px", height: "126px", bottom: "0" }} src={cm_on_nav}
-              alt="" className="brand-logo right" />
+              alt="" className="brand-logo right1" />
           </div>
 
         </div>
 
       </span>
 
-      <nav className="navbar" role="navigation">
-        <div className="nav-wrapper">
-          <ul className="main-container">
-            <li className="white-text"
+      <nav className="navbar1" role="navigation">
+        <div className="nav-wrapper1">
+          <ul className="main-container1">
+            <li className="white-text1"
               style={{ borderLeft: "1px solid #14520b", paddingLeft: "2px", paddingRight: "2px", height: "43px" }}>
-              <div className='home'><a href="#test1" className="white-text" style={{ outline: "0" }}>Home</a></div>
+              <div className='home1'><a href="#test1" className="white-text1" style={{ outline: "0" }}>Home</a></div>
             </li>
             <li style={{ borderLeft: "1px solid #14520b", height: "43px" }}>
-              <a className="white-text" href="#!" data-target="aboutUsDrop">About Us
+              <a className="white-text1" href="#!" data-target="aboutUsDrop">About Us
                 <ArrowDropDown />
               </a>
             </li>
             <li style={{ borderLeft: "1px solid #14520b", height: "43px" }}>
-              <a className="white-text" href="#!" data-target="dduGkyDrop">DDU-GKY
+              <a className="white-text1" href="#!" data-target="dduGkyDrop">DDU-GKY
                 <ArrowDropDown /></a>
             </li>
             <li style={{ borderLeft: "1px solid #14520b", height: "43px" }}>
-              <a href="#test1" className="white-text">Activities
+              <a href="#test1" className="white-text1">Activities
                 <ArrowDropDown /></a>
             </li>
             <li style={{ borderLeft: "1px solid #14520b", height: "43px" }}>
-              <a className="white-text" href="#!" data-target="productsDrop">Products
+              <a className="white-text1" href="#!" data-target="productsDrop">Products
                 <ArrowDropDown /></a>
             </li>
             <li style={{ borderLeft: "1px solid #14520b", height: "43px" }}>
-              <a className="white-text" href="#!" data-target="exhibitionDrop">Exhibition
+              <a className="white-text1" href="#!" data-target="exhibitionDrop">Exhibition
                 <ArrowDropDown /></a>
             </li>
             <li style={{ borderLeft: "1px solid #14520b", borderRight: "1px solid #14520b", height: "43px" }}
-              class="tab white-text">
-              <div className='home'><a href="#test1" className="white-text">Tender</a></div>
+              className="tab white-text1">
+              <div className='home1'><a href="#test1" className="white-text1">Tender</a></div>
             </li>
           </ul>
           {/* <ul id="nav-mobile" className="sidenav" style={{display:"flex"}}>
@@ -126,16 +127,16 @@ function Header() {
       <div><Slider /></div>
 
     
-        <div id="index-banner">
+        <div id="index-banner1">
 
 </div>
-<div className="scroltainer" style={{backgroundColor: "rgb(38, 88, 21)"}}> &nbsp; <marquee
-    behavior="scroll" direction="left" onmouseover="this.stop()" onmouseout="this.start()"> <a className="whitext"
+<div className="scroltainer1" style={{backgroundColor: "rgb(38, 88, 21)"}}> &nbsp; <marquee
+    behavior="scroll" direction="left" onmouseover="this.stop()" onmouseout="this.start()"> <a className="whitext1"
       href=""> Corrigendum
-      for Outsource Agency </a>|| <a className="whitext" href=""> EoI - SAGARMALA PHASE - II-extended upto 03.1.2023
-    </a>|| <a className="whitext" href=""> Corrigendum for Outsource Agency </a>|| <a className="whitext" href=""> EoI -
-      SAGARMALA PHASE - II-extended upto 03.1.2023</a> || <a className="whitext" href=""> Corrigendum for Outsource
-      Agency</a> || <a className="whitext" href=""> EoI - SAGARMALA PHASE - II-extended upto 03.1.2023</a> </marquee>
+      for Outsource Agency </a>|| <a className="whitext1" href=""> EoI - SAGARMALA PHASE - II-extended upto 03.1.2023
+    </a>|| <a className="whitext1" href=""> Corrigendum for Outsource Agency </a>|| <a className="whitext1" href=""> EoI -
+      SAGARMALA PHASE - II-extended upto 03.1.2023</a> || <a className="whitext1" href=""> Corrigendum for Outsource
+      Agency</a> || <a className="whitext1" href=""> EoI - SAGARMALA PHASE - II-extended upto 03.1.2023</a> </marquee>
  
 </div>
 

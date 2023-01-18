@@ -1,4 +1,6 @@
-.sticky-position{
+/* Header css part */
+
+.sticky-position1{
     position: -webkit-sticky; 
     position: sticky; 
     top: 0; 
@@ -6,16 +8,16 @@
     z-index: 997; 
     padding-top: 26px;
     background-color: #b2b5bb;
-}
-
-.container{
+  }
+  
+  .container1{
     margin-bottom: 0px !important ;
           display: flex;
           justify-content: space-between;
           background-color: #c4ffdb;;
-}
-
-.scroll-container{
+  }
+  
+  .scroll-container1{
     background-color: #5a5353d9; padding-top: 0;
     margin-top: 0; 
     z-index: 111;
@@ -28,9 +30,9 @@
       justify-content:space-around;
       flex-direction:row;
      color: azure;
-}
-
-.mobile-responsive{
+  }
+  
+  .mobile-responsive1{
     height:100%; 
     border-right:#8e8e8ed9; 
     text-align:right center; 
@@ -40,19 +42,19 @@
     font-size:12px;
     text-transform:capitalize;
     font-family: Verdana, sans-serif;
-}
-.govt-heading{
+  }
+  .govt-heading1{
     border-right:1px solid white; 
     padding-right:10px;
     color: white;
     display: flex;
     align-items: center;
     
-}
-.odia{
+  }
+  .odia1{
     padding-left:10px;
-}
-.container2{
+  }
+  .container2{
     height:100%; 
     text-align:right center; 
     font-family:'Lato', sans-serif;
@@ -61,42 +63,42 @@
     font-size:12px;
     text-transform:capitalize;
     text-align:right;
-}
-.yellow-text{
+  }
+  .yellow-text1{
     color: #ffeb3b !important;
     margin-right:37px
-}
-.odiayai{
+  }
+  .odiayai1{
     margin-left:30px
-}
-.social-icons{
+  }
+  .social-icons1{
     display: flex;
     margin-left:30px;
     color: azure;
     justify-content: space-around;
-}
-.navbar{
+  }
+  .navbar1{
     display: flex;
      padding-left: 25%; 
      background-color:#009d00; 
      margin-top:-4px;
      height: 43px;
     
-}
-.main-container{
+  }
+  .main-container1{
     display:flex;
     margin-top: 0px;
     list-style: none;
-}
-li:hover{
+  }
+  li:hover{
     background-color: #286e28;
     transition: 0.5s;
     
-}
-.home{
+  }
+  .home1{
     margin-top: 7px;
-}
-.white-text{
+  }
+  .white-text1{
     text-decoration: none;
     box-sizing: border-box;
     color:white;
@@ -104,20 +106,21 @@ li:hover{
     padding-left: 6px;
     transition: 0.5s;
     cursor: pointer;
-}
-.odishalogo{
+  }
+  .odishalogo1{
     padding-top: 1%; 
     height:100px; 
     width:152px;
-}
-.nav-wrapper{
+  }
+  .nav-wrapper1{
     margin: 0px;
-}
-.whitext{
+  }
+  .whitext1{
     color: white;
     margin-top: 2px;
-}
-.box{
+  }
+  .box1{
     margin-left:1167px;
     margin-bottom: -53px;
-}
+  }
+  /* Header css part end */
